@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact • BrewHaven</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header><a href="index.html">BrewHaven</a> | <a href="menu.html">Menu</a> | <a href="reservations.html">Reservations</a> | <a href="contact.html">Contact</a></header>
+  <main class="container">
+    <h1>Contact Us</h1>
+    <div class="grid grid-3">
+      <div class="card">
+        <h2>Send a Message</h2>
+        <form aria-label="Contact form" action="#" method="post">
+          <label for="cname">Name</label>
+          <input id="cname" required placeholder="Your name" />
+          <label for="cemail">Email</label>
+          <input id="cemail" type="email" required placeholder="you@example.com" />
+          <label for="cmsg">Message</label>
+          <textarea id="cmsg" rows="5" required placeholder="How can we help?"></textarea>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="card">
+        <h2>Visit Us</h2>
+        <p>123 Coffee Lane, San José, CA<br/>Mon–Fri 7a–6p • Sat–Sun 8a–6p</p>
+        <iframe class="map" loading="lazy" allowfullscreen
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.184!2d-121.8863!3d37.3352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDIwJzA2LjciTiAxMjHCsDUzJzEwLjYiVw!5e0!3m2!1sen!2sus!4v1710000000000">
+        </iframe>
+      </div>
+      <div class="card">
+        <h2>Follow</h2>
+        <p>Stay updated on specials and events.</p>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer>© BrewHaven</footer>
+  <script src="script.js"></script>
+</body>
+</html>
